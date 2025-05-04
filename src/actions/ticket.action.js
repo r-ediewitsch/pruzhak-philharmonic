@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = 'https://pruzhak-backend.vercel.app/api/ticket'
+const API_URL = 'https://pruzhak-backend.vercel.app/ticket'
 
 export const createTicket = async (ticketData) => {
   try {

@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = 'https://pruzhak-backend.vercel.app/api/concert'
+const API_URL = 'https://pruzhak-backend.vercel.app/concert'
 
 export const getAllConcerts = async () => {
   try {
